@@ -22,27 +22,28 @@ This allows you to manage your infrastructure securely and efficiently.
 1. Clone the repository:
 
    git clone https://github.com/saikiran-sidral/Terraform-AWS.git
+   
    cd Terraform-AWS/Terraform-VPC
 
-2. Initialize Terraform: "terraform init"
+3. Initialize Terraform: "terraform init"
 
-3. Review the plan: "terraform plan"
+4. Review the plan: "terraform plan"
 
-4. Apply the configuration: "terraform apply"
+5. Apply the configuration: "terraform apply"
 
-5. Access the Bastion Host:
+6. Access the Bastion Host:
 
    After the infrastructure is deployed, you can SSH into the Bastion Host:
 
    "ssh -i <your-private-key.pem> ec2-user@bastion-host-public-ip"
 
-6. Access the Application Server:
+7. Access the Application Server:
 
    From the Bastion Host, SSH into the private Application Server:
 
    "ssh -i <your-private-key.pem> ec2-user@app-server-private-ip"
 
-7. Destroy the infrastructure to avoid ongoing costs: "terraform destroy"
+8. Destroy the infrastructure to avoid ongoing costs: "terraform destroy"
 
 ## Acknowledgments
 
